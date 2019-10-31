@@ -1,0 +1,10 @@
+D:\Programs\Projects\BSUIR\TILab2\CipherTester\bin\Release\CipherTester.exe.config
+D:\Programs\Projects\BSUIR\TILab2\CipherTester\bin\Release\CipherTester.exe
+D:\Programs\Projects\BSUIR\TILab2\CipherTester\bin\Release\CipherTester.pdb
+D:\Programs\Projects\BSUIR\TILab2\CipherTester\bin\Release\Ciphers.dll
+D:\Programs\Projects\BSUIR\TILab2\CipherTester\bin\Release\Ciphers.pdb
+D:\Programs\Projects\BSUIR\TILab2\CipherTester\obj\Release\CipherTester.csprojAssemblyReference.cache
+D:\Programs\Projects\BSUIR\TILab2\CipherTester\obj\Release\CipherTester.csproj.CoreCompileInputs.cache
+D:\Programs\Projects\BSUIR\TILab2\CipherTester\obj\Release\CipherTester.csproj.CopyComplete
+D:\Programs\Projects\BSUIR\TILab2\CipherTester\obj\Release\CipherTester.exe
+D:\Programs\Projects\BSUIR\TILab2\CipherTester\obj\Release\CipherTester.pdb

@@ -1,0 +1,6 @@
+D:\Programs\Projects\BSUIR\TILab2\Ciphers\obj\Release\Encoders.csproj.CoreCompileInputs.cache
+D:\Programs\Projects\BSUIR\TILab2\Ciphers\obj\Release\Ciphers.dll
+D:\Programs\Projects\BSUIR\TILab2\Ciphers\obj\Release\Ciphers.pdb
+D:\Programs\Projects\BSUIR\TILab2\Ciphers\bin\Release\Ciphers.dll
+D:\Programs\Projects\BSUIR\TILab2\Ciphers\bin\Release\Ciphers.pdb
+D:\Programs\Projects\BSUIR\TILab2\Ciphers\obj\Release\Encoders.csprojAssemblyReference.cache

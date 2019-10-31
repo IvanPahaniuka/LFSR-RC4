@@ -1,0 +1,34 @@
+﻿<Window x:Class="TILab2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TILab2"
+        mc:Ignorable="d"
+        Title="Шифровка" Height="496.358" Width="664.92" MinWidth="664.92" MinHeight="461.19">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Метод шифровки" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <RadioButton x:Name="lfsrRB" Content="LFSR" HorizontalAlignment="Left" Margin="16,48,0,0" VerticalAlignment="Top" IsChecked="True" Checked="RB_Checked"/>
+        <RadioButton x:Name="rc4RB" Content="RC4" HorizontalAlignment="Left" Margin="78,48,0,0" VerticalAlignment="Top" Checked="RB_Checked"/>
+        <TextBox x:Name="text" Margin="10,129,9.6,137.4" TextWrapping="Wrap" AcceptsReturn="True" TextChanged="Text_TextChanged"/>
+        <TextBox x:Name="ciphertext" Margin="10.4,129,8.4,137.4" TextWrapping="Wrap" Grid.Column="1" AcceptsReturn="True" TextChanged="Ciphertext_TextChanged"/>
+        <Label Content="Шифротекст" Grid.Column="1" HorizontalAlignment="Left" Margin="10.4,87,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Текст" HorizontalAlignment="Left" Margin="10,87,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="textSrcBox" Margin="62,0,9.6,71.4" TextWrapping="Wrap" Height="23" VerticalAlignment="Bottom" IsReadOnly="True"/>
+        <TextBox x:Name="ciphertextSrcBox" Margin="62,0,8.4,71.4" TextWrapping="Wrap" Height="23" VerticalAlignment="Bottom" Grid.Column="1" IsReadOnly="True"/>
+        <TextBox x:Name="key" Margin="62,0,8.4,100.4" TextWrapping="Wrap" Height="23" VerticalAlignment="Bottom" Grid.ColumnSpan="2"/>
+        <Label Content="Ключ" HorizontalAlignment="Left" Margin="10,0,0,99.4" Width="47" Height="26" VerticalAlignment="Bottom"/>
+        <Button Content="Зашифровать" Margin="10,0,9.6,10.4" Height="33" VerticalAlignment="Bottom" Click="EncryptClick"/>
+        <Button Content="Расшифровать" Margin="10.4,0,10.4,10.4" Height="33" VerticalAlignment="Bottom" Grid.Column="1" Click="DecryptClick"/>
+        <Label x:Name="keyException" Visibility="Hidden" Content="" HorizontalAlignment="Left" Margin="62,0,0,117.4" FontSize="10" Foreground="#FFBD0000" Height="24" Grid.ColumnSpan="2" VerticalAlignment="Bottom" />
+        <Button Content="Загрузить" Grid.Column="1" HorizontalAlignment="Right" Height="25" Margin="0,99,10.4,0" VerticalAlignment="Top" Width="78" Click="LoadClick"/>
+        <Button Content="Обзор" Margin="10,0,0,71.4" HorizontalAlignment="Left" Width="47" Height="23" VerticalAlignment="Bottom" Click="Button_Click_1"/>
+        <Button Content="Обзор" Margin="10.4,0,0,71.4" Grid.Column="1" HorizontalAlignment="Left" Width="47" Height="23" VerticalAlignment="Bottom" Click="Button_Click_2"/>
+        <Button Content="Сохранить" HorizontalAlignment="Right" Height="24" Margin="0,70,10.4,0" VerticalAlignment="Top" Width="78" Click="SaveClick" Grid.Column="1"/>
+
+    </Grid>
+</Window>
